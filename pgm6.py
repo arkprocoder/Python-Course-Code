@@ -17,8 +17,11 @@
 
 # write palindrome program to validate strings and numbers or anything
 
-pali=input("Enter the number or string or number+string \n") 
-print("Enter input is ",pali) 
-print("Output is ",pali[::-1]) 
+pali=input("Enter the number or string or number + string \n") 
+if(pali==pali[::-1]):
+    print("It is palindrome")
+
+else:
+    print("It is not a palindrome")
 
 
